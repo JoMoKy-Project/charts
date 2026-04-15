@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "demo-john-chart.fullname" . }}
+  labels:
+    {{- include "demo-john-chart.labels" . | nindent 4 }}
+spec:
+  {{- if .Values.service.nodePort.enabled }}
+  type: {{ .Values.service.nodePort.type }}
+  {{- else }}
+  type: {{ .Values.service.type }}
+  {{- end }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+      {{- if .Values.service.nodePort.enabled }}
+      nodePort: {{ .Values.service.nodePort.nodePortNumber }}
+      {{- end }}
+  selector:
+    {{- include "demo-john-chart.selectorLabels" . | nindent 4 }}
