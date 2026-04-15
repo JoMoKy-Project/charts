@@ -3,34 +3,34 @@ entries:
   demo-database-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-15T23:33:16.991944803Z"
+    created: "2026-04-15T23:35:32.062376696Z"
     description: A Helm chart for Kubernetes
     digest: dd1cd9e9b327c296f8dfaa1a65d3f6de4eed4a94df5adb1bf093cdf95e7d684a
     name: demo-database-chart
     type: application
     urls:
-    - https://JoMoKy-Project.github.io/charts/demo-database-chart-0.1.0.tgz
+    - https://jomoky-project.github.io/charts/demo-database-chart-0.1.0.tgz
     version: 0.1.0
   demo-john-backend-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-15T23:33:16.99266542Z"
+    created: "2026-04-15T23:35:32.063117023Z"
     description: A Helm chart for Kubernetes
     digest: 13a1aa79827b129d6e64118a9efc14436f5006ca165726aa6ca1f258eb9b450b
     name: demo-john-backend-chart
     type: application
     urls:
-    - https://JoMoKy-Project.github.io/charts/demo-john-backend-chart-0.1.0.tgz
+    - https://jomoky-project.github.io/charts/demo-john-backend-chart-0.1.0.tgz
     version: 0.1.0
   demo-john-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-15T23:33:16.993382561Z"
+    created: "2026-04-15T23:35:32.064191414Z"
     description: A Helm chart for Kubernetes
     digest: 80a4b96f01046f4a1cd4cdea322cbf0f15adc946c101e21b9ab1173ba056261d
     name: demo-john-chart
     type: application
     urls:
-    - https://JoMoKy-Project.github.io/charts/demo-john-chart-0.1.0.tgz
+    - https://jomoky-project.github.io/charts/demo-john-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-15T23:33:16.991049222Z"
+generated: "2026-04-15T23:35:32.061428667Z"
