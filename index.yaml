@@ -24,6 +24,16 @@ entries:
     version: 1.0.0
   demo-database-chart:
   - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2026-04-21T22:01:18.325313-04:00"
+    description: Demo masonda database chart
+    digest: c714669e208309eb60761f9ec8933da774743c9a7247b68b9034ab24e8b431ef
+    name: demo-database-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-database-chart-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-04-21T22:01:31.4347935-04:00"
     description: A Helm chart for Kubernetes
@@ -34,6 +44,16 @@ entries:
     - https://JoMoKy-Project.github.io/charts/demo-database-chart-0.1.0.tgz
     version: 0.1.0
   demo-john-backend-chart:
+  - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2026-04-21T22:01:18.326375-04:00"
+    description: John's Masonda backend demo chart.
+    digest: e771d34c0c3da6b953d90903fe57808391d46f64e96297b38926ea0f6d155ca0
+    name: demo-john-backend-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-john-backend-chart-1.0.4.tgz
+    version: 1.0.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-04-21T22:01:31.4571324-04:00"
@@ -55,6 +75,17 @@ entries:
     urls:
     - https://JoMoKy-Project.github.io/charts/demo-john-chart-0.1.0.tgz
     version: 0.1.0
+  demo-john-frontend-chart:
+  - apiVersion: v2
+    appVersion: 1.0.8
+    created: "2026-04-21T22:01:18.327395-04:00"
+    description: John's Masonda frontend demo chart.
+    digest: 89c454f3228fc7e43d25e0907c06d6f8590a827135f032313ccea17a1afed1a9
+    name: demo-john-frontend-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-john-frontend-chart-1.0.1.tgz
+    version: 1.0.1
   masonda-backend:
   - apiVersion: v2
     appVersion: 1.0.3
@@ -111,3 +142,4 @@ entries:
     - https://JoMoKy-Project.github.io/charts/masonda-frontend-1.0.4.tgz
     version: 1.0.4
 generated: "2026-04-21T22:01:31.3670664-04:00"
+
