@@ -3,7 +3,7 @@ entries:
   demo-brian-backend-chart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-21T22:33:19.843075-04:00"
+    created: "2026-04-21T22:39:00.848837-04:00"
     description: A Helm chart for Kubernetes
     digest: d4175fbeff974e93b4d67fb2bccdcac6abc55b2a6a5e3bcc9d73dfae8746b0a9
     name: demo-brian-backend-chart
@@ -14,7 +14,7 @@ entries:
   demo-brian-frontend-chart:
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2026-04-21T22:33:19.843476-04:00"
+    created: "2026-04-21T22:39:00.849834-04:00"
     description: Brian's Masonda frontend demo chart
     digest: 48dc90ed11ced01347f744957ba026f9c730d209f24711818e341f6011670f6a
     name: demo-brian-frontend-chart
@@ -25,7 +25,7 @@ entries:
   demo-database-chart:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-21T22:33:19.844505-04:00"
+    created: "2026-04-21T22:39:00.850692-04:00"
     description: Demo masonda database chart
     digest: c714669e208309eb60761f9ec8933da774743c9a7247b68b9034ab24e8b431ef
     name: demo-database-chart
@@ -35,7 +35,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-21T22:33:19.844188-04:00"
+    created: "2026-04-21T22:39:00.850252-04:00"
     description: A Helm chart for Kubernetes
     digest: dd1cd9e9b327c296f8dfaa1a65d3f6de4eed4a94df5adb1bf093cdf95e7d684a
     name: demo-database-chart
@@ -46,7 +46,7 @@ entries:
   demo-john-backend-chart:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-21T22:33:19.845994-04:00"
+    created: "2026-04-21T22:39:00.852128-04:00"
     description: John's Masonda backend demo chart.
     digest: e771d34c0c3da6b953d90903fe57808391d46f64e96297b38926ea0f6d155ca0
     name: demo-john-backend-chart
@@ -56,7 +56,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-21T22:33:19.844895-04:00"
+    created: "2026-04-21T22:39:00.85167-04:00"
     description: A Helm chart for Kubernetes
     digest: 13a1aa79827b129d6e64118a9efc14436f5006ca165726aa6ca1f258eb9b450b
     name: demo-john-backend-chart
@@ -67,7 +67,7 @@ entries:
   demo-john-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-21T22:33:19.846342-04:00"
+    created: "2026-04-21T22:39:00.852554-04:00"
     description: A Helm chart for Kubernetes
     digest: 80a4b96f01046f4a1cd4cdea322cbf0f15adc946c101e21b9ab1173ba056261d
     name: demo-john-chart
@@ -78,7 +78,7 @@ entries:
   demo-john-frontend-chart:
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2026-04-21T22:33:19.846652-04:00"
+    created: "2026-04-21T22:39:00.852955-04:00"
     description: John's Masonda frontend demo chart.
     digest: 89c454f3228fc7e43d25e0907c06d6f8590a827135f032313ccea17a1afed1a9
     name: demo-john-frontend-chart
@@ -89,7 +89,7 @@ entries:
   demo-maurine-backend-chart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-21T22:33:19.847164-04:00"
+    created: "2026-04-21T22:39:00.854026-04:00"
     description: Maurine's Masonda backend chart
     digest: 8100c116e1846d5464b6ce35589b406ccbcf21c25facb4d8c32e873e68234250
     name: demo-maurine-backend-chart
@@ -100,7 +100,7 @@ entries:
   demo-maurine-frontend-chart:
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2026-04-21T22:33:19.847511-04:00"
+    created: "2026-04-21T22:39:00.854416-04:00"
     description: Maurine's Masonda frontend chart
     digest: bf82980f47c189875ec675bcfc6b5bbd053cf605f95c6c661a6a26e4f79d44ea
     name: demo-maurine-frontend-chart
@@ -108,10 +108,32 @@ entries:
     urls:
     - https://JoMoKy-Project.github.io/charts/demo-maurine-frontend-chart-1.0.0.tgz
     version: 1.0.0
+  demo-monica-backend-chart:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2026-04-21T22:39:00.854959-04:00"
+    description: Monica's Masonda backend demo chart
+    digest: 751fb37a91f47d24ce6a33da37c2557e50ed2ca435d2642876a3ce978ad63b41
+    name: demo-monica-backend-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-monica-backend-chart-1.0.1.tgz
+    version: 1.0.1
+  demo-monica-frontend-chart:
+  - apiVersion: v2
+    appVersion: 1.0.8
+    created: "2026-04-21T22:39:00.855459-04:00"
+    description: Monica's Masonda frontend demo chart
+    digest: accedca94f2586646397e6ade6379b53da6b83e1dabbe5444f5b298a4d311113
+    name: demo-monica-frontend-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-monica-frontend-chart-1.0.0.tgz
+    version: 1.0.0
   masonda-backend:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-21T22:33:19.848693-04:00"
+    created: "2026-04-21T22:39:00.856335-04:00"
     description: A Helm chart for project Masonda backend web app
     digest: 5241f14446be1a0b88dc5444c76947266ede0f9fd761015a8a626951113952b9
     home: https://github.com/JoMoKy-Project/Masonda/tree/main/WebApp/backend
@@ -129,7 +151,7 @@ entries:
   masonda-frontend:
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2026-04-21T22:33:19.849702-04:00"
+    created: "2026-04-21T22:39:00.858535-04:00"
     description: A Helm chart for project Masonda frontend web app
     digest: e1f031b98e8e57ac3f0d9c4c78da94dfd8e8dbc89a70319f427fdc24857fc21c
     home: https://github.com/JoMoKy-Project/Masonda/tree/main/WebApp/frontend
@@ -147,7 +169,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2026-04-21T22:33:19.849212-04:00"
+    created: "2026-04-21T22:39:00.857936-04:00"
     description: A Helm chart for project Masonda frontend web app
     digest: b1e2258f5a387703dea8e7762688d9f82c6314a538931b1c0273083eff151361
     home: https://github.com/JoMoKy-Project/Masonda/tree/main/WebApp/frontend
@@ -163,4 +185,4 @@ entries:
     urls:
     - https://JoMoKy-Project.github.io/charts/masonda-frontend-1.0.4.tgz
     version: 1.0.4
-generated: "2026-04-21T22:33:19.842519-04:00"
+generated: "2026-04-21T22:39:00.847846-04:00"
