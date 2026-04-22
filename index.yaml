@@ -1,9 +1,31 @@
 apiVersion: v1
 entries:
+  demo-brian-backend-chart:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2026-04-21T22:01:31.3927311-04:00"
+    description: A Helm chart for Kubernetes
+    digest: d4175fbeff974e93b4d67fb2bccdcac6abc55b2a6a5e3bcc9d73dfae8746b0a9
+    name: demo-brian-backend-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-brian-backend-chart-1.0.1.tgz
+    version: 1.0.1
+  demo-brian-frontend-chart:
+  - apiVersion: v2
+    appVersion: 1.0.6
+    created: "2026-04-21T22:01:31.4176293-04:00"
+    description: Brian's Masonda frontend demo chart
+    digest: 48dc90ed11ced01347f744957ba026f9c730d209f24711818e341f6011670f6a
+    name: demo-brian-frontend-chart
+    type: application
+    urls:
+    - https://JoMoKy-Project.github.io/charts/demo-brian-frontend-chart-1.0.0.tgz
+    version: 1.0.0
   demo-database-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-21T09:20:15.302764-04:00"
+    created: "2026-04-21T22:01:31.4347935-04:00"
     description: A Helm chart for Kubernetes
     digest: dd1cd9e9b327c296f8dfaa1a65d3f6de4eed4a94df5adb1bf093cdf95e7d684a
     name: demo-database-chart
@@ -14,7 +36,7 @@ entries:
   demo-john-backend-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-21T09:20:15.303143-04:00"
+    created: "2026-04-21T22:01:31.4571324-04:00"
     description: A Helm chart for Kubernetes
     digest: 13a1aa79827b129d6e64118a9efc14436f5006ca165726aa6ca1f258eb9b450b
     name: demo-john-backend-chart
@@ -25,7 +47,7 @@ entries:
   demo-john-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-04-21T09:20:15.305281-04:00"
+    created: "2026-04-21T22:01:31.4578255-04:00"
     description: A Helm chart for Kubernetes
     digest: 80a4b96f01046f4a1cd4cdea322cbf0f15adc946c101e21b9ab1173ba056261d
     name: demo-john-chart
@@ -36,7 +58,7 @@ entries:
   masonda-backend:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-21T09:20:15.30588-04:00"
+    created: "2026-04-21T22:01:31.4774927-04:00"
     description: A Helm chart for project Masonda backend web app
     digest: 5241f14446be1a0b88dc5444c76947266ede0f9fd761015a8a626951113952b9
     home: https://github.com/JoMoKy-Project/Masonda/tree/main/WebApp/backend
@@ -54,7 +76,7 @@ entries:
   masonda-frontend:
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2026-04-21T09:20:15.307356-04:00"
+    created: "2026-04-21T22:01:31.517665-04:00"
     description: A Helm chart for project Masonda frontend web app
     digest: e1f031b98e8e57ac3f0d9c4c78da94dfd8e8dbc89a70319f427fdc24857fc21c
     home: https://github.com/JoMoKy-Project/Masonda/tree/main/WebApp/frontend
@@ -72,7 +94,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2026-04-21T09:20:15.306648-04:00"
+    created: "2026-04-21T22:01:31.4960184-04:00"
     description: A Helm chart for project Masonda frontend web app
     digest: b1e2258f5a387703dea8e7762688d9f82c6314a538931b1c0273083eff151361
     home: https://github.com/JoMoKy-Project/Masonda/tree/main/WebApp/frontend
@@ -88,4 +110,4 @@ entries:
     urls:
     - https://JoMoKy-Project.github.io/charts/masonda-frontend-1.0.4.tgz
     version: 1.0.4
-generated: "2026-04-21T09:20:15.301977-04:00"
+generated: "2026-04-21T22:01:31.3670664-04:00"
